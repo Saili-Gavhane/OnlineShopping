@@ -19,6 +19,7 @@ public class Product {
 	LocalDate product_update_date;
 	String description;
 	String approval_status;
+	String zartab;
 	
 	@OneToOne
 	@JoinColumn(name="retailer_id")
